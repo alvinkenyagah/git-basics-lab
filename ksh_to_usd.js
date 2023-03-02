@@ -6,3 +6,6 @@ if (!ksh) {
     console.log("Enter amount in Kenyan shilling: ")
     process.exit();
 }
+
+const usd = (ksh / exchangeRate).toFixed(2);
+
